@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou sisplimente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="foto pequena">
+    </picture>
+    <hr>
+    <h1>Audio</h1>
+    <p>Aqui teremos audio em nosso site</p>
+    <audio preload="metadata" controls loop>
+        <source src="audio/audio site.mp3" type="audio/mpeg">
+        <source src="audio/audio site.mp3" type="audio/mpeg">
+        <source src="audio/audio site.mp3" type="audio/mpeg">
+        <p>Infelzmente seu navegador não consegue reproduzir o áudio.
+            <a href="audio/audio site.mp3" download="audio/audio site.mp3" type="audio/mpeg" cliqe aqui para baixar o arquivo></a>
+        </p>
+    </audio>
+</body>
+</html>

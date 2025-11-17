@@ -1,0 +1,13 @@
+*{      /* configurações glbais*/
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom ,#A22ADB,#FE14A2,#FEC13A);
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}

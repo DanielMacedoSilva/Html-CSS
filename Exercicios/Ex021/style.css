@@ -1,0 +1,21 @@
+h1{
+    background-color: rgba(128, 128, 128, 0.39);
+    border: 10px solid green;    
+    height: 300px;
+    width: 300px;
+
+    padding: 10px;
+
+    margin: auto;
+
+    outline: 5px dashed red;
+}
+a{
+    display: inline-block;
+    border: 10px solid red;
+    padding: 10px;
+}
+
+p{
+    text-align: center;
+}

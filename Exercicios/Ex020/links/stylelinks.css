@@ -1,0 +1,33 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 14px;
+    margin: 20px;
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    transition: 1s;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    transform: scale(1.2);
+    background-color: #10E640;
+}
+
+a:active{
+    color: yellow;
+}
+
+a::after{
+    content: "⇒";
+}

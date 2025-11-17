@@ -1,0 +1,46 @@
+
+
+
+
+
+
+div{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 50%;
+    justify-content: space-evenly;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+div, id, p{
+    text-align: center;
+  
+
+}
+
+div > p{
+    display: none;
+       
+}
+
+div:hover{
+    cursor: pointer;
+    background-color: #000B0D ;
+    transform:scale(1.2);
+}
+
+div:hover > p{
+    display: block;
+    cursor: pointer;    
+}
+
+
+ 

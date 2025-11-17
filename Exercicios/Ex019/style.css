@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, #76A6B4, #D4B99E, #FBE2D0);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #507993 ;
+}
+
+h1#principal{
+    color: #507993;
+    text-align: center;
+    background-color: #FFF5F3;
+    border-radius: 35px;     
+}
+
+h2{
+    text-align: center;
+    color: #FFF5F3;
+   
+}
+
+p{
+    text-indent: 20px;
+}
+
+.basico{
+    color: greenyellow;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red ;
+}

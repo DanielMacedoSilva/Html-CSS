@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(10, 10, 10, 0.849);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    transition: 400ms;
+
+} 
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.java{
+    text-align: center;
+
+}
+
+.voltar{
+    text-align: center;
+    transition: 400ms;
+}
+
+.linkjava{
+    text-align: center;
+    
+    
+}
+
+h2:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hardware{
+    display: flex;
+    justify-content: center ;
+}
+
+.html{
+    text-align: center;
+}
+
+.python{
+    text-align: center;
+}
+
+.fotos:hover.fotos{
+    filter:opacity(1);
+    transform: scale(1.03);
+}
+
+

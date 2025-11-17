@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    background-image: linear-gradient(to bottom, #507993, #76A6B4, #D4B99E );
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1,h2{
+    color:#507993 ;
+    font-family: pacifico ;
+}
