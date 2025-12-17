@@ -78,6 +78,10 @@ body{
 
 }
 
+.conteudo-principal p {
+    padding-bottom: 2em;
+}
+
 .imagem-paralax1{
     height:800px;
     background-image: url(imagens/background001.jpg);
@@ -96,6 +100,10 @@ body{
     background-attachment: fixed;
 }
 
+.imagem-paralax1, .imagem-paralax2{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.342);
+}
+
 .texto-paralax{
     position: relative;
     top: 10%;
@@ -110,6 +118,7 @@ body{
     display: flex;
     justify-items: flex-start;
 }
+
 
 footer{
     height: 40px;
